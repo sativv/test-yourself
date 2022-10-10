@@ -160,6 +160,7 @@ nav ul li {
     text-align: start;
 }
 
+
 .head-sec2 {
     font-family: 'Aleo';
     font-style: normal;
@@ -339,16 +340,104 @@ nav ul li {
     min-height: 700px;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.sec-5-text {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    /* identical to box height, or 72% */
+
+    color: #FFFFFF;
+
+}
+
+.box-sec-5 {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 287px;
+    background: #333333;
+    display: flex;
+    margin-top: 91px;
 }
 
 
+.quote {
+    color: #5474FD;
+}
 
 
+.box-text {
+    margin-left: 59px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    max-width: 581px;
+    width: 100%;
+    min-height: 156px;
+}
+
+.box-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    color: #FEFEFE;
+    margin-top: 49px;
+    margin-bottom: 12px;
+}
 .sec-6-bg {
     max-width: 1770px;
     width: 100%;
-    min-height: 700px;
+    min-height: 271px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: center;
     background: #232323;
+    text-align: center;
+}
+
+
+.footer-h2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    margin-bottom:8px;
+
+    color: #FFFFFF;
+}
+
+
+.footer-p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    letter-spacing: 1.6px;
+
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.socials {
+    margin-bottom: 53px;
 }
