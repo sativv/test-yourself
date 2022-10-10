@@ -654,6 +654,10 @@ nav ul li {
           transform: scale(1.1);
 }
 
+.sec-5-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 320px) {
   .sec1-bigtext {
     font-size: 35px;
