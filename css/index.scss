@@ -580,6 +580,10 @@ nav ul li {
         flex-direction: column;
     }
     .mountain-img {
+        max-width: 320px;
+        width: 100%;
+        min-height:220px ;
+        object-fit: contain;
         margin-left: 0px;
     }
 
