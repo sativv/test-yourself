@@ -441,9 +441,10 @@ nav ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+.box-align {
+  margin-left: 34px;
 }
 
 .sec-3-boxes {
@@ -459,6 +460,7 @@ nav ul li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 15%;
 }
 
 .spain {
@@ -494,10 +496,6 @@ nav ul li {
   color: #E8E8E8;
 }
 
-.box-align {
-  margin-left: 32px;
-}
-
 .sec-4-bg {
   background-image: url("../images/background-scetion-4.png");
   background-position: center;
@@ -511,6 +509,13 @@ nav ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.box2 {
+  margin-right: 15%;
 }
 
 .sec-5-bg {

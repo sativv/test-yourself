@@ -284,9 +284,12 @@ nav ul li {
     min-height: 700px;
     display: flex;
     align-items: center;
-    justify-content: center;
+
 }
 
+.box-align {
+    margin-left: 34px;
+}
 
 .sec-3-boxes {
     background: #232323;
@@ -296,6 +299,7 @@ nav ul li {
     height: 374px;
     display: flex;
     flex-direction: column;
+    margin-left: 15%;
 }
 
 
@@ -340,10 +344,7 @@ nav ul li {
 
 }
 
-.box-align {
 
-    margin-left: 32px;
-}
 
 
 .sec-4-bg {
@@ -355,6 +356,11 @@ nav ul li {
     min-height: 700px;
     display: flex;
     align-items: center;
+    justify-content: end;
+}
+
+.box2 {
+    margin-right: 15%;
 }
 
 
