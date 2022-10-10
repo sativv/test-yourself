@@ -572,6 +572,11 @@ nav ul li {
   display: none;
 }
 
+@media screen and (max-width: 900px) {
+  .grid1 {
+    scale: 0.6;
+  }
+}
 @media screen and (max-width: 320px) {
   .sec1-bigtext {
     font-size: 35px;
