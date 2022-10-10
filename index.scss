@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+
+
+
+.sec-1-bg {
+    background-image: url("images/background-section-1.jpeg");
+    background-position: center;
+    background-size: cover;
+    max-width: 1770px;
+    width: 100%;
+    min-height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec1-bigtext {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+
+.sec1-smalltext {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+    color: #FFFFFF;
+    margin-top: 11px;
+}
+
+
+.btn-text {
+    width: 150px;
+    height: 67px;
+    left: 502px;
+    top: 2px;
+    background: #5474FD;
+    border: 2px solid #FFFFFF;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        background: #6e89ff;
+    }
+    &:active {
+        transform: scale(0.99);
+    }
+}
+
+
+.searchbar {
+    width: 55vh;
+    height: 63px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    text-align: center;
+    letter-spacing: 2.8px;
+    margin-top: 48px;
+    color: #999999;
+}
+
+
+
+.footer {
+    background: #5474FD;
+    width: 1770px;
+    height: 83px;
+    text-align: center;
+}
+
+.nav-sec-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 12px;
+}
+
+.list-logo {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+.list-text {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
