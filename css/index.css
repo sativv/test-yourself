@@ -10,7 +10,7 @@ body {
 }
 
 .sec-1-bg {
-  background-image: url("images/background-section-1.jpeg");
+  background-image: url("../images/background-section-1.jpeg");
   background-position: center;
   background-size: cover;
   max-width: 1770px;
@@ -146,7 +146,7 @@ nav ul li {
 }
 
 .sec-2-bg {
-  background-image: url("images/background-section-2.png");
+  background-image: url("../images/background-section-2.png");
   background-position: center;
   background-size: cover;
   max-width: 1770px;
@@ -254,7 +254,7 @@ nav ul li {
 }
 
 .sec-3-bg {
-  background-image: url("images/background-section-3.png");
+  background-image: url("../images/background-section-3.png");
   background-position: center;
   background-size: cover;
   max-width: 1770px;
@@ -321,7 +321,7 @@ nav ul li {
 }
 
 .sec-4-bg {
-  background-image: url("images/background-scetion-4.png");
+  background-image: url("../images/background-scetion-4.png");
   background-position: center;
   background-size: cover;
   max-width: 1770px;
@@ -336,7 +336,7 @@ nav ul li {
 }
 
 .sec-5-bg {
-  background-image: url("images/background-section-5.png");
+  background-image: url("../images/background-section-5.png");
   background-position: center;
   background-size: cover;
   max-width: 1770px;
