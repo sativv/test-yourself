@@ -157,7 +157,6 @@ nav ul li {
     text-align: center;
 }
 
-
 .sec-2-left {
     max-width: 560px;
     width: 100%;
@@ -445,4 +444,12 @@ nav ul li {
 
 .socials {
     margin-bottom: 53px;
+}
+
+
+.soc-icon {
+
+    &:hover {
+        cursor: pointer;
+    }
 }

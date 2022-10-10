@@ -461,3 +461,7 @@ nav ul li {
 .socials {
   margin-bottom: 53px;
 }
+
+.soc-icon:hover {
+  cursor: pointer;
+}
