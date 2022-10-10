@@ -135,3 +135,192 @@ nav ul li {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+.sec-2-bg {
+  background-image: url("images/background-section-2.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 685px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.sec-2-left {
+  max-width: 560px;
+  width: 100%;
+  min-height: 234px;
+  text-align: start;
+}
+
+.head-sec2 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  /* identical to box height, or 72% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.text-sec2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
+
+.sec-2-button {
+  width: 228px;
+  height: 63px;
+  background: #5474FD;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 45px;
+  color: #FFFFFF;
+}
+.sec-2-button:hover {
+  background: #6e89ff;
+}
+.sec-2-button:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+.sec-2-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 110px;
+}
+
+.mountain-img {
+  margin-top: 10px;
+}
+
+.mid-section-2 {
+  background: #333333;
+  height: 340px;
+  max-width: 1770px;
+  width: 100%;
+}
+
+.sec-3-bg {
+  background-image: url("images/background-section-3.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-3-boxes {
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  width: 543px;
+  height: 374px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.spain {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 49px;
+  margin-bottom: 23px;
+  /* identical to box height, or 130% */
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+}
+.spaintitle {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 13px;
+  /* identical to box height, or 130% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.spaintext {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #E8E8E8;
+}
+
+.box-align {
+  margin-left: 32px;
+}
+
+.sec-4-bg {
+  background-image: url("images/background-scetion-4.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
