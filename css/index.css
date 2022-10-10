@@ -675,7 +675,6 @@ nav ul li {
 
   .list-text {
     display: none;
-    z-index: 6;
   }
 
   .list-logo {
@@ -697,5 +696,9 @@ nav ul li {
 
   .grid1 {
     scale: 0.3;
+  }
+
+  .socials {
+    scale: 1.5;
   }
 }
