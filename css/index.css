@@ -103,6 +103,23 @@ body {
   text-align: center;
 }
 
+.burgericon {
+  display: none;
+  color: white;
+}
+.burgericon:active {
+  color: purple;
+}
+.burgericon:hover {
+  color: aqua;
+}
+
+.navtop.responsive ul li {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
 .nav-sec-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -719,6 +736,23 @@ nav ul li {
   }
 
   .sec-2-button {
-    margin-left: 45px;
+    margin-left: 40px;
+  }
+
+  .nav-sec-1 {
+    min-height: 25px;
+  }
+
+  .list-text {
+    display: none;
+    z-index: 6;
+  }
+
+  .list-logo {
+    font-size: 15px;
+  }
+
+  .burgericon {
+    display: block;
   }
 }
