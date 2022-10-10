@@ -38,13 +38,39 @@ body {
   color: #FFFFFF;
 }
 
+@-webkit-keyframes expand {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes expand {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 .scroll-img {
   margin-top: 50px;
-}
-.scroll-img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  cursor: pointer;
+  -webkit-animation: expand 2s ease-in-out infinite;
+          animation: expand 2s ease-in-out infinite;
 }
 
 .sec1-smalltext {

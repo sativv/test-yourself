@@ -32,13 +32,21 @@ body {
     color: #FFFFFF;
 }
 
+@keyframes expand {
+    0% {
+        transform: scale(1.0);
+    }
+    50% { transform: scale(1.1);}
+
+    100% {transform: scale(1.0);}
+}
+
 .scroll-img {
     margin-top: 50px;
-    &:hover {
-        transform: scale(1.1);
-        cursor: pointer;
-    }
+    animation: expand 2s ease-in-out infinite;
 }
+
+
 .sec1-smalltext {
     font-family: 'Josefin Sans';
     font-style: normal;
