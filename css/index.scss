@@ -12,7 +12,6 @@ body {
     background-image: url("../images/background-section-1.jpeg");
     background-position: center;
     background-size: cover;
-    max-width: 1800px;
     width: 100%;
     min-height: 820px;
     display: flex;
@@ -92,7 +91,7 @@ body {
 
 .footer {
     background: #5474FD;
-    width: 1800px;
+    width: 100%;
     height: 83px;
     text-align: center;
 }
@@ -148,7 +147,7 @@ nav ul li {
     background-image: url("../images/background-section-2.png");
     background-position: center;
     background-size: cover;
-    max-width: 1800px;
+    max-width: 100%;
     width: 100%;
     min-height: 685px;
     display: flex;
@@ -238,7 +237,7 @@ nav ul li {
 .mid-section-2 {
     background: #333333;
     height: 340px;
-    max-width: 1800px;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -248,7 +247,6 @@ nav ul li {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 340px;
-    max-width: 1800px;
     width: 100%;
 }
 
@@ -279,7 +277,7 @@ nav ul li {
     background-image: url("../images/background-section-3.png");
     background-position: center;
     background-size: cover;
-    max-width: 1800px;
+    max-width: 100%;
     width: 100%;
     min-height: 700px;
     display: flex;
@@ -351,7 +349,6 @@ nav ul li {
     background-image: url("../images/background-scetion-4.png");
     background-position: center;
     background-size: cover;
-    max-width: 1800px;
     width: 100%;
     min-height: 700px;
     display: flex;
@@ -378,7 +375,6 @@ nav ul li {
     background-image: url("../images/background-section-5.png");
     background-position: center;
     background-size: cover;
-    max-width: 1800px;
     width: 100%;
     min-height: 700px;
     display: flex;
@@ -441,7 +437,6 @@ nav ul li {
     margin-bottom: 12px;
 }
 .sec-6-bg {
-    max-width: 1800px;
     width: 100%;
     min-height: 271px;
     display: flex;
@@ -492,4 +487,101 @@ nav ul li {
         cursor: pointer;
         transform: scale(1.1);
     }
+}
+
+
+// End of desktop css 
+
+@media screen and (max-width:900px) {
+
+}
+
+
+
+
+
+
+
+
+// End of tablet css
+@media screen and (max-width:320px) {
+
+    .sec1-bigtext {
+        font-size: 35px;
+    }
+
+    .sec1-smalltext {
+        font-size: 15px;
+    }
+
+    .searchbar {
+        width: 300px;
+        height: 50px;
+    }
+
+    .btn-text {
+        height: 35px;
+    }
+
+
+    .list-text {
+        font-size: 10px;
+    }
+
+    .sec-2-right {
+        margin-left: 0px;
+    }
+
+    .sec-2-bg {
+        flex-direction: column;
+    }
+    .mountain-img {
+        margin-left: 0px;
+    }
+
+    .lakehouse {
+        margin-top: 10px;
+    }
+
+    .head-sec2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .sec-3-boxes {
+        margin-left: 0;
+    }
+
+    .box2 {
+        margin:0%
+    }
+
+    .sec-5-text {
+        margin-top: 15px;
+        font-size: 30px ;
+    }
+
+    .box-h3 {
+        margin-left: 0%;
+    }
+
+
+    .box-sec-5 {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .sec-5-desktop {
+        display: none;
+    }
+
+    .mobile-text {
+        max-width: 320px;
+        width: 100%;
+    }
+    
+    .box-text {
+        margin-left: 0%;
+    }
+
 }
