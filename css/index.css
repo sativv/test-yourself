@@ -715,6 +715,7 @@ nav ul li {
 
   .box-h3 {
     margin-left: 0%;
+    text-align: center;
   }
 
   .box-sec-5 {
@@ -733,6 +734,8 @@ nav ul li {
 
   .box-text {
     margin-left: 0%;
+    max-width: 310px;
+    width: 100%;
   }
 
   .sec-2-button {
@@ -754,5 +757,10 @@ nav ul li {
 
   .burgericon {
     display: block;
+  }
+
+  .mobile-text {
+    font-size: 12px;
+    text-align: center;
   }
 }
