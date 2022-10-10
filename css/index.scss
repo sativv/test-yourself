@@ -33,8 +33,13 @@ body {
     color: #FFFFFF;
 }
 
-
-
+.scroll-img {
+    margin-top: 50px;
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
 .sec1-smalltext {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -49,7 +54,7 @@ body {
 
 .btn-text {
     width: 150px;
-    height: 67px;
+    height: 62px;
     left: 502px;
     top: 2px;
     background: #5474FD;
