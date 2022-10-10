@@ -117,12 +117,14 @@ body {
   letter-spacing: 2.4px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-top: 10px;
 }
 
 nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
+  margin-top: 10px;
 }
 
 .list-text {
@@ -134,6 +136,13 @@ nav ul li {
   /* identical to box height, or 186% */
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.list-text:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+.list-text:active {
+  scale: 0.95;
 }
 
 .sec-2-bg {
@@ -234,6 +243,7 @@ nav ul li {
 
 .mountain-img {
   margin-top: 10px;
+  margin-left: 100px;
 }
 
 .mid-section-2 {
@@ -323,4 +333,32 @@ nav ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.sec-5-bg {
+  background-image: url("images/background-section-5.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec-6-bg {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #232323;
 }

@@ -85,7 +85,6 @@ body {
     color: #999999;
 }
 
-
 .footer {
     background: #5474FD;
     width: 1770px;
@@ -109,12 +108,14 @@ body {
     letter-spacing: 2.4px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 10px;
 }
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
+    margin-top: 10px;
 
 }
 .list-text {
@@ -126,6 +127,13 @@ nav ul li {
     /* identical to box height, or 186% */
     text-transform: uppercase;
     color: #FFFFFF;
+    &:hover {
+        color: lightblue;
+        cursor: pointer;
+    }
+    &:active {
+        scale: 0.95;
+    }
 }
 
 
@@ -218,8 +226,8 @@ nav ul li {
 
 .mountain-img {
     margin-top: 10px;
+    margin-left: 100px;
 }
-
 
 
 .mid-section-2 {
@@ -309,4 +317,38 @@ nav ul li {
     min-height: 700px;
     display: flex;
     align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sec-5-bg {
+    background-image: url("images/background-section-5.png");
+    background-position: center;
+    background-size: cover;
+    max-width: 1770px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.sec-6-bg {
+    max-width: 1770px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    background: #232323;
 }
